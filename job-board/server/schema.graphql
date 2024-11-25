@@ -1,3 +1,5 @@
+""" Achivo de texto en formato GraphQL """
+
 type Query {
   company(id: ID!): Company
   job(id: ID!): Job

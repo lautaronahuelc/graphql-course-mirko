@@ -10,9 +10,21 @@ Otro utilza queries para obtener datos de solo lectura, mutaciones para modifica
 En la arquitectura REST se devuelve siempre el recurso completo
 En GraphQL se devuelve el recurso especificado
 
+Exponer la api a través de http:
+para hacer eso usamos una libreria llamada apollo server que es una forma popular de implementar graphql con js
+instalamos  graphql -> core functionality
+            @apollo/server -> expose api a través de http
+startStandaloneServer para iniciar el servidor de apollo sin otro framework de backend.
 
-Mostrar esquema
-Mostrar resolvers
-Levantar GraphQL son Apllo Server
+Mostrar esquema (representa la interfaz de la api, la forma que va a tener, lo que el cliente puede pedir)
+Mostrar resolvers (resuelve el valor de las queries)
+Levantar GraphQL con Apllo Server
 
-Mostrar Sandbox
+Mostrar Sandbox (para realizar queries, ver documentacion)
+query sencilla,
+estructura respuesta,
+segerencias
+query nomenclatura
+
+Graphql sobre HTTP
+mostrar peticiones, son POST
